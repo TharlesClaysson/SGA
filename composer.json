@@ -1,0 +1,19 @@
+{
+    "description": "SGA Sistema de Gerenciamento de Alunos",
+    "authors": [
+        {
+            "name": "Edson Bila",
+            "email": "edsonbila111@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\" : "core",
+            "App\\": "app"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "twbs/bootstrap": "5.2.2"
+    }
+}
